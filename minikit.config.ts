@@ -4,14 +4,14 @@ const ROOT_URL =
 
 /**
  * MiniApp configuration object. Must follow the Farcaster MiniApp specification.
-*
+ *
  * @see {@link https://miniapps.farcaster.xyz/docs/guides/publishing}
  */
 export const minikitConfig = {
-  "accountAssociation": {
-    "header": "eyJmaWQiOjU3NTA5OSwidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweEYwODdFMTIyN0ZEZjY0NjkzNmFlZTQ1ZjJhNUE1RGE2NzMxMjZmNzEifQ",
-    "payload": "eyJkb21haW4iOiJ3YWl0bGlzdC1kZW1vLWxpYXJ0LnZlcmNlbC5hcHAifQ",
-    "signature": "LzUEWMNUgJFftNwBsupwIaHTbhJ89RiPjdm1R1VRyKxfoYqvN60FNr6YkC8kxExcxlDodNkiF1t8p1yot7FjRBw="
+  accountAssociation: {
+    header: "eyJmaWQiOjU3NTA5OSwidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweEYwODdFMTIyN0ZEZjY0NjkzNmFlZTQ1ZjJhNUE1RGE2NzMxMjZmNzEifQ",
+    payload: "eyJkb21haW4iOiJ3YWl0bGlzdC1kZW1vLWxpYXJ0LnZlcmNlbC5hcHAifQ",
+    signature: "LzUEWMNUgJFftNwBsupwIaHTbhJ89RiPjdm1R1VRyKxfoYqvN60FNr6YkC8kxExcxlDodNkiF1t8p1yot7FjRBw="
   },
   miniapp: {
     version: "1",
